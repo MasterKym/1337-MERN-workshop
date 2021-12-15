@@ -17,7 +17,7 @@
 ### Introduction
 This workshop will go through the basics of settings up a Nodejs server powered with Express.js. We'll go over what each of the components does and how they all work together to build a server.
 Before we get into the code an introduction about what HTTP is, HTML and CSS is necessary.
-In HTTP, requests are initiated by the recipient, and
+In HTTP, requests are initiated by the recipient, and **ADD THINGS HEEEEEEEEEEEEERE**
 
 ### What is HTTP
 HTTP stands for HyperText Transfer Protocol.
@@ -38,12 +38,12 @@ You can think of HTML as just plain text, it is plain text in way. Only it has a
 
 ### What is CSS
 If you've played around with HTML for the first time you'll notice that it's limited and tends to get dull.
-CSS stands for Cascading Style Sheets. I don't know what that means to be honest and I suck at CSS so I'll leave that to the people who are good at it but I'll tell you that CSS allwos you to style your HTML code. You can add colors, backgroud colors, transitions and many more cool things.
+CSS stands for Cascading Style Sheets. I don't know what that means to be honest and I suck at CSS so I'll leave that to the people who are good at it but I'll tell you that CSS allows you to style your HTML code. You can add colors, backgroud colors, transitions and many more cool things.
 * Try adding some CSS to that HTML file you created, see what terrible results you get.
 
 ### What is Nodejs
 This markdown is meant for beginners so I won't try to go into many details but I'll state what I think is important to know.
-The name is "Nodejs", "js" stands for `JavaScript`. Javascript is a scripting programming language that was initially developed for front end development, meaning it would run on the browser. It would be used for enhancing the browsing experience. In 2009 Ryan Dahl rolled out Nodejs with would enable running Javascript outside the browser.
+The name is "Nodejs", "js" stands for `JavaScript`. Javascript is a scripting programming language that was initially developed for front end development, meaning it would run on the browser. It would be used for enhancing the browsing experience. In 2009 Ryan Dahl rolled out Nodejs which would enable running Javascript outside the browser.
 You'll find an installation guide in the resources.
 * Our first eval in nodejs.
 * Ways Javascript is different than C.
@@ -54,12 +54,12 @@ You'll find an installation guide in the resources.
 ### What is Express.js
 Again, what I've shown you so far is pretty limited.. we need a way to extend it.
 Express.js is a framework that will enable us to create our own server, very easily and very fast. It is a very widely used framework for back end development in Node.
-The way Express is used is that you define routes and you define your server's behaviour opon receiving a request on that route. For instance, the route can be `/user/Yassir` and the server's response would be `Yassir is a student at 1337 and an Entrepreuneur`. You can send it in plain text as I wrote it but that's usually not how it's done.
+The way Express is used is that you define routes and you define your server's behaviour upon receiving a request on that route. For instance, the route can be `/user/Yassir` and the server's response would be `Yassir is a student at 1337 and an Entrepreuneur`. You can send it in plain text as I wrote it but that's usually not how it's done.
 The behaviour I described here is for a `GET` request. Later on Inshaallah we'll see another type of requests, `POST` request.
 
 ### Setting up an Express server
 
-**Important Note: In this tutorial ( if you wish to call it that.. ) we'll go directly to setting up the server. You should know however that there are many steps that precede this, we're skipping those. A good developer not only knows how to use the technology but has a solid understanding of the underlying infrastructure, implementation specific knowledge and should not mind digging the source code when things get hairy.**
+**Important Note: In this tutorial ( if you wish to call it that.. ) we'll go directly to setting up the server. However you should know that there are many steps that precede this, we're skipping those. A good developer does not only know how to use the technology but has a solid understanding of the underlying infrastructure, implementation specific knowledge and should not mind digging the source code when things get hairy.**
 
 
 Steps:
