@@ -1,0 +1,19 @@
+{
+  "name": "session1",
+  "version": "1.0.0",
+  "description": "first sessioni at 1337 MERN workshop",
+  "main": "app.js",
+  "scripts": {
+    "dev" :"nodemon app.js"
+  },
+  "keywords": [
+    "javascript",
+    "1337"
+  ],
+  "author": "MasterKym",
+  "license": "ISC",
+  "dependencies": {
+    "expressjs": "^1.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
