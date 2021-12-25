@@ -4,6 +4,7 @@
   "description": "first sessioni at 1337 MERN workshop",
   "main": "app.js",
   "scripts": {
+    "start":"node app.js",
     "dev" :"nodemon app.js"
   },
   "keywords": [
