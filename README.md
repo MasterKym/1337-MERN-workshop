@@ -17,7 +17,7 @@
 ### Introduction
 This workshop will go through the basics of settings up a Nodejs server powered with Express.js. We'll go over what each of the components does and how they all work together to build a server.
 Before we get into the code an introduction about what HTTP is, HTML and CSS is necessary.
-In HTTP, requests are initiated by the recipient, and **ADD THINGS HEEEEEEEEEEEEERE**
+In HTTP, requests are initiated by the recipient, the server can choose whether or not to respond and how to respond. You'll get a better understanding of this as we develop our own application.
 
 ### What is HTTP
 HTTP stands for HyperText Transfer Protocol.
@@ -47,7 +47,6 @@ The name is "Nodejs", "js" stands for `JavaScript`. Javascript is a scripting pr
 You'll find an installation guide in the resources.
 * Our first eval in nodejs.
 * Ways Javascript is different than C.
-* How Javascript is built on C.. Lol
 * Javascript weirdness.. don't be a kiddy :D
 * Execute a script.
 
@@ -87,7 +86,7 @@ Also, you might notice that a file called package-lock.json was created, you mig
 ### Deploying your express app
 
 
-placeholder
+Follow the instructions on: https://devcenter.heroku.com/articles/deploying-nodejs
 
 
 
@@ -97,4 +96,4 @@ placeholder
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
 
-<h3>Thank you to @TWIL</h3>
+<h3>Thank you</h3>
