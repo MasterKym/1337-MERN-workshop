@@ -4,8 +4,8 @@
   "description": "first sessioni at 1337 MERN workshop",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
-    "dev" :"nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "javascript",
@@ -14,7 +14,7 @@
   "author": "MasterKym",
   "license": "ISC",
   "dependencies": {
-    "expressjs": "^1.0.1",
+    "express": "^4.17.2",
     "nodemon": "^2.0.15"
   }
 }
